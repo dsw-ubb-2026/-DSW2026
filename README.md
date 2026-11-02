@@ -43,7 +43,8 @@ dsw/
 |---|---|
 | `curs/01_introducere_si_datele_proiectului.ipynb` | C1. Jupyter, fișiere, JSON, primul contact cu SCI |
 | `curs/02_colectarea_datelor_prin_api.ipynb` | C2. Banca Mondială, Eurostat, migrația |
+| `curs/03_surse_diverse_si_preprocesare.ipynb` | C3. Nomenclatorul NUTS, indicatorii într-un tabel, SCI pe regiuni, migrația curățată |
 
 ## Date
 
-`curs/data/country.csv` provine din [Social Connectedness Index (HDX)](https://data.humdata.org/dataset/social-connectedness-index), la nivel de țară. Descrierea setului: [Johnston, Kuchler, Kulkarni și Stroebel (2026)](https://doi.org/10.1016/j.dib.2026.112905). Fișierele din `curs/exemple_curs1/` sunt fictive. Datele de la cursul 2 se colectează prin API și ajung în `curs/data/c2/`.
+`curs/data/country.csv` și `curs/data/nuts2_2024.csv` provin din [Social Connectedness Index (HDX)](https://data.humdata.org/dataset/social-connectedness-index), la nivel de țară și de regiune NUTS2. Descrierea setului: [Johnston, Kuchler, Kulkarni și Stroebel (2026)](https://doi.org/10.1016/j.dib.2026.112905). Fișierele din `curs/exemple_curs1/` sunt fictive. Datele de la cursul 2 se colectează prin API și ajung în `curs/data/c2/`. La cursul 3, nomenclatorul regiunilor se descarcă de la [GISCO](https://gisco-services.ec.europa.eu/distribution/v2/nuts/nuts-2024-files.html), iar tabelele pregătite ajung în `curs/data/c3/`.

@@ -1,3 +1,11 @@
 pandas
+numpy
 requests
+matplotlib
+geopandas
+folium
+mapclassify
+networkx
+scikit-learn
+statsmodels
 ipykernel

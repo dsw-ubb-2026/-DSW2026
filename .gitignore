@@ -3,3 +3,4 @@ __pycache__/
 .ipynb_checkpoints/
 curs/data/c*/
 proiect/
+_admin/
