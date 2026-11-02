@@ -44,6 +44,8 @@ dsw/
 | `curs/01_introducere_si_datele_proiectului.ipynb` | C1. Jupyter, fișiere, JSON, primul contact cu SCI |
 | `curs/02_colectarea_datelor_prin_api.ipynb` | C2. Banca Mondială, Eurostat, migrația |
 | `curs/03_surse_diverse_si_preprocesare.ipynb` | C3. Nomenclatorul NUTS, indicatorii într-un tabel, SCI pe regiuni, migrația curățată |
+| `curs/src/date_api.py` | funcțiile pentru date (Banca Mondială, Eurostat), de la C3 |
+| `curs/data/CATALOG.md` | seturile de date pentru proiect, cu filtrele lor |
 
 ## Date
 
