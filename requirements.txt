@@ -1,5 +1,6 @@
 pandas
 numpy
+scipy
 requests
 matplotlib
 geopandas
@@ -9,3 +10,6 @@ networkx
 scikit-learn
 statsmodels
 ipykernel
+sqlalchemy
+psycopg[binary]
+python-dotenv

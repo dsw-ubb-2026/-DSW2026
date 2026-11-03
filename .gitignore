@@ -1,6 +1,9 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-curs/data/c*/
+curs/data/raw/
+curs/data/processed/
 proiect/
 _admin/
+.env
+curs/data/c*/
