@@ -31,11 +31,21 @@ dsw/
 ├── README.md
 ├── requirements.txt
 ├── curs/           notebook-urile de la curs, le completezi tu
-└── proiect/        de la cursul 2: repo-ul echipei
+└── proiect/        de la cursul 3: repo-ul echipei
 ```
 
-- **`curs/`**: aici lucrezi la curs. La fiecare curs nou descarci doar notebook-ul zilei în `curs/`. Nu descărca din nou arhiva întreagă: îți poate suprascrie notebook-urile completate.
-- **`proiect/`**: la cursul 2 fiecare echipă primește un repo pe GitHub. În `dsw/` rulezi o singură dată `git clone <adresa repo-ului echipei> proiect`.
+- **`curs/`**: aici lucrezi la curs. Nu e repo Git și nu se urcă nicăieri.
+- **`proiect/`**: de la cursul 3, repo-ul echipei pe GitHub. În `dsw/` rulezi o singură dată `git clone <adresa repo-ului echipei> proiect`. Doar aici se fac `pull`, `commit` și `push`.
+
+## La fiecare curs
+
+Descarci doar caietul zilei: îl deschizi aici, pe GitHub, apeși **Download raw file** și îl salvezi în `dsw/curs/`, lângă celelalte. Restul îl aduce caietul singur:
+- C3 descarcă `src/date_api.py` în `curs/src/`, cu prima lui celulă;
+- datele vin direct de la sursă (Eurostat, Banca Mondială, GISCO) sau de la adresa lor de aici, de pe GitHub;
+- seturile de date pentru proiect sunt descrise în [`curs/data/CATALOG.md`](curs/data/CATALOG.md), care se citește aici, pe GitHub;
+- C5 spune ce pachete noi se instalează și cum se creează `.env`.
+
+ZIP-ul se descarcă o singură dată, la primul curs. După curs, caietul complet înlocuiește aici varianta de seminar; dacă îl vrei, îl descarci la fel, după ce îți redenumești caietul tău (de exemplu `02_..._meu.ipynb`).
 
 ## Conținut
 
@@ -52,7 +62,7 @@ dsw/
 
 ## Baza de date
 
-De la cursul 5, adresa bazei de date Neon stă într-un fișier `.env`, în `dsw/`: copiezi `.env.exemplu` ca `.env` și pui adresa ta. `.env` nu se urcă niciodată pe GitHub.
+De la cursul 5, adresa bazei de date Neon stă într-un fișier `.env`, în `dsw/`, cu un singur rând, ca în `.env.exemplu`. `.env` nu se urcă niciodată pe GitHub.
 
 ## Date
 
