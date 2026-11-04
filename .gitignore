@@ -1,7 +1,6 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-curs/data/processed/
 proiect/
 _admin/
 .env
