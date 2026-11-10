@@ -5,3 +5,4 @@ proiect/
 _admin/
 .env
 curs/data/c*/
+curs/data/*.db

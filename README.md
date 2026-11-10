@@ -43,7 +43,7 @@ Descarci doar caietul zilei: îl deschizi aici, pe GitHub, apeși **Download raw
 - C3 descarcă `src/date_api.py` în `curs/src/`, cu prima lui celulă;
 - datele vin direct de la sursă (Eurostat, Banca Mondială, GISCO) sau de la adresa lor de aici, de pe GitHub;
 - seturile de date pentru proiect sunt descrise în [`curs/data/CATALOG.md`](curs/data/CATALOG.md), care se citește aici, pe GitHub;
-- C5 spune ce pachete noi se instalează și cum se creează `.env`.
+- C5 creează baza de date SQLite a cursului, `curs/data/dsw.db`, din tabelele din C3 și C4.
 
 ZIP-ul se descarcă o singură dată, la primul curs. După curs, caietul complet înlocuiește aici varianta de seminar; dacă îl vrei, îl descarci la fel, după ce îți redenumești caietul tău (de exemplu `02_..._meu.ipynb`).
 
@@ -55,14 +55,14 @@ ZIP-ul se descarcă o singură dată, la primul curs. După curs, caietul comple
 | `curs/02_colectarea_datelor_prin_api.ipynb` | C2. Banca Mondială, Eurostat, migrația |
 | `curs/03_surse_diverse_si_preprocesare.ipynb` | C3. Nomenclatorul NUTS, indicatorii într-un tabel, SCI pe regiuni, migrația curățată |
 | `curs/04_curatarea_si_integrarea_datelor.ipynb` | C4. Cele cinci verificări ale curățării; integrarea cu `pivot` și `merge` |
-| `curs/05_agregare_si_baze_de_date.ipynb` | C5. Baza de date PostgreSQL pe Neon, SQL și agregarea |
+| `curs/05_agregare_si_baze_de_date.ipynb` | C5. Baza de date SQLite, SQL, integrarea și agregarea |
 | `curs/06_analiza_exploratorie.ipynb` | C6. Ipotezele H1-H4, harta, rețeaua și comunitățile |
 | `curs/src/date_api.py` | funcțiile pentru date (Banca Mondială, Eurostat), de la C3 |
 | `curs/data/CATALOG.md` | seturile de date pentru proiect, cu filtrele lor |
 
 ## Baza de date
 
-De la cursul 5, adresa bazei de date Neon stă într-un fișier `.env`, în `dsw/`, cu un singur rând, ca în `.env.exemplu`. `.env` nu se urcă niciodată pe GitHub.
+De la cursul 5, tabelele cursului stau într-o bază de date SQLite: un singur fișier, `curs/data/dsw.db`, creat de caietul 05. Nu cere cont, parolă sau server.
 
 ## Date
 
