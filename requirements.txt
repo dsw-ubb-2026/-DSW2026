@@ -3,6 +3,7 @@ numpy
 scipy
 requests
 matplotlib
+seaborn
 geopandas
 folium
 mapclassify
