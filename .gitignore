@@ -5,4 +5,6 @@ proiect/
 _admin/
 .env
 curs/data/c*/
-curs/data/*.db
+*.db
+!curs/data/dsw.db
+*.geojson
